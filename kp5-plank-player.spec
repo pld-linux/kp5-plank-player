@@ -1,17 +1,17 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeplasmaver	5.27.5
+%define		kdeplasmaver	5.27.6
 %define		qtver		5.15.2
 %define		kpname		plank-player
 Summary:	Multimedia Player for playing local files on Plasma Bigscreen
 Name:		kp5-%{kpname}
-Version:	5.27.5
+Version:	5.27.6
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/plasma/%{kdeplasmaver}/%{kpname}-%{version}.tar.xz
-# Source0-md5:	a185c7f09b9b81683e85d884f9be1e1e
+# Source0-md5:	6841a0bcb4260376504890c3ea49b82b
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Quick-devel
 BuildRequires:	cmake >= 2.8.12
